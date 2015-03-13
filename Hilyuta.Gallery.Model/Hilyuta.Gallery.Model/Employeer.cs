@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace Hilyuta.Gallery.Model
 {
-    public class Artist : BaseClass
+    public class Employeer : BaseClass
     {
         public string name { set; get; }
         public DateTime dateOfBirth { set; get; }
-        public DateTime dateOfDeath { set; get; }
-        public ICollection<Picture> pictures { set; get; }
+
+        //TEMP + some additional information later
+        public string presentPost { set; get; }
+        public ICollection<ExhibitionHall> hallsUnderTheJurisdiction { set; get; }
+        //smth more 
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Hilyuta.Gallery.Model
 {
-    class Genre
+    public class BaseClass
     {
+        public string id { set; get;}
     }
 }

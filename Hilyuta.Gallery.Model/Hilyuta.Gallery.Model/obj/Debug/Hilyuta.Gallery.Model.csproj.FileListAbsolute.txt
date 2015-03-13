@@ -1,1 +1,7 @@
 c:\users\user\documents\visual studio 2013\Projects\Hilyuta.Gallery.Model\Hilyuta.Gallery.Model\bin\Debug\Hilyuta.Gallery.Model.exe.config
+W:\3 курс\6 семестр\ОС и СП\Hilyuta.Gallery\Hilyuta.Gallery\Hilyuta.Gallery.Model\Hilyuta.Gallery.Model\bin\Debug\Hilyuta.Gallery.Model.exe.config
+W:\3 курс\6 семестр\ОС и СП\Hilyuta.Gallery\Hilyuta.Gallery\Hilyuta.Gallery.Model\Hilyuta.Gallery.Model\bin\Debug\Hilyuta.Gallery.Model.exe
+W:\3 курс\6 семестр\ОС и СП\Hilyuta.Gallery\Hilyuta.Gallery\Hilyuta.Gallery.Model\Hilyuta.Gallery.Model\bin\Debug\Hilyuta.Gallery.Model.pdb
+W:\3 курс\6 семестр\ОС и СП\Hilyuta.Gallery\Hilyuta.Gallery\Hilyuta.Gallery.Model\Hilyuta.Gallery.Model\obj\Debug\Hilyuta.Gallery.Model.csprojResolveAssemblyReference.cache
+W:\3 курс\6 семестр\ОС и СП\Hilyuta.Gallery\Hilyuta.Gallery\Hilyuta.Gallery.Model\Hilyuta.Gallery.Model\obj\Debug\Hilyuta.Gallery.Model.exe
+W:\3 курс\6 семестр\ОС и СП\Hilyuta.Gallery\Hilyuta.Gallery\Hilyuta.Gallery.Model\Hilyuta.Gallery.Model\obj\Debug\Hilyuta.Gallery.Model.pdb

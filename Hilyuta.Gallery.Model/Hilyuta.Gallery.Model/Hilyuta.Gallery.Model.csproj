@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Artist.cs" />
-    <Compile Include="Genre.cs" />
+    <Compile Include="BaseClass.cs" />
+    <Compile Include="ExhibitionHall .cs" />
+    <Compile Include="Employeer.cs" />
     <Compile Include="Picture.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
