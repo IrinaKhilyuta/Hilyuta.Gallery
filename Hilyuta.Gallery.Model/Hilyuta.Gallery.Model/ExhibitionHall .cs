@@ -8,8 +8,9 @@ namespace Hilyuta.Gallery.Model
 {
     public class ExhibitionHall  : BaseClass
     {
+        public string name { set; get; }
+        public int capacity { set; get; }
         public ICollection<Picture> pictures { set; get; }
         public ICollection<Employeer> employeers { set; get; }
-        //smth more
     }
 }

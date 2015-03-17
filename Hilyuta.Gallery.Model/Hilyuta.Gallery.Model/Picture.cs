@@ -9,9 +9,8 @@ namespace Hilyuta.Gallery.Model
     public class Picture : BaseClass
     {
         public string name { set; get; }
-        public uint yearThePainting { set; get; }
+        public uint paintingYear { set; get; }
         public Artist author;
-
 
         //temp fields?????
         public string TEMP_genre;

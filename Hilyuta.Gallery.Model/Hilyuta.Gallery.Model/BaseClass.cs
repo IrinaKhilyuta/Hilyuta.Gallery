@@ -9,5 +9,6 @@ namespace Hilyuta.Gallery.Model
     public class BaseClass
     {
         public string id { set; get;}
+        public string someAdditionalInformation { set; get; }
     }
 }
