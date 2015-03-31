@@ -1,22 +1,52 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="Picture.cs" company="">
+//   jk
+// </copyright>
+// <summary>
+//   Defines the Picture type.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
 
 namespace Hilyuta.Gallery.Model
 {
+    /// <summary>
+    /// The picture.
+    /// </summary>
     public class Picture : BaseClass
     {
-        public string name { set; get; }
-        public uint paintingYear { set; get; }
-        public Artist author;
+        /// <summary>
+        /// Gets or sets the name.
+        /// </summary>
+        public string Name { get; set; }
 
-        //temp fields?????
-        public string TEMP_genre;
-        public string TEMP_style;
-        public string TEMP_content;
-        public string TEMP_technique;
+        /// <summary>
+        /// Gets or sets the painting year.
+        /// </summary>
+        public uint PaintingYear { get; set; }
 
+        /// <summary>
+        /// The author.
+        /// </summary>
+        public Artist Author { get; set; }
+
+        /// <summary>
+        /// Gets or sets the genre.
+        /// </summary>
+        public string Genre { get; set; }
+
+        /// <summary>
+        /// Gets or sets the style.
+        /// </summary>
+        public string Style { get; set; }
+
+        /// <summary>
+        /// Gets or sets the content.
+        /// </summary>
+        public string Content { get; set; }
+
+        /// <summary>
+        /// Gets or sets the technique.
+        /// </summary>
+        public string Technique { get; set; }
     }
 }

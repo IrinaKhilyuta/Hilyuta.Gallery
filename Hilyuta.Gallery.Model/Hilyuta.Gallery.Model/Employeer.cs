@@ -1,25 +1,59 @@
-﻿using System;
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="Employeer.cs" company="ыы">
+//   ыы
+// </copyright>
+// <summary>
+//   Defines the Employeer type.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Hilyuta.Gallery.Model
 {
+    /// <summary>
+    /// The employeer.
+    /// </summary>
     public class Employeer : BaseClass
     {
-        public string name { set; get; }
-        public DateTime dateOfBirth { set; get; }
-        public string homeAddress { set; get; }
-        public string presentPost { set; get; }
-        public string socialSecurityNumber { set; get; }
-        public string authorityIdentifier { set; get; }
-        public string medicalInsuranceNumber { set; get; }
+        /// <summary>
+        /// Gets or sets the name.
+        /// </summary>
+        public string Name { get; set; }
 
-        
-        //TEMP + some additional information later (информация о договоре по найму на работу)
-        public string presentPost { set; get; }
-        public ICollection<ExhibitionHall> hallsUnderTheJurisdiction { set; get; }
-        //smth more 
+        /// <summary>
+        /// Gets or sets the date of birth.
+        /// </summary>
+        public DateTime DateOfBirth { get; set; }
+
+        /// <summary>
+        /// Gets or sets the home address.
+        /// </summary>
+        public string HomeAddress { get; set; }
+
+        /// <summary>
+        /// Gets or sets the present post.
+        /// </summary>
+        public string PresentPost { get; set; }
+
+        /// <summary>
+        /// Gets or sets the social security number.
+        /// </summary>
+        public string SocialSecurityNumber { get; set; }
+
+        /// <summary>
+        /// Gets or sets the authority identifier.
+        /// </summary>
+        public string AuthorityIdentifier { get; set; }
+
+        /// <summary>
+        /// Gets or sets the medical insurance number.
+        /// </summary>
+        public string MedicalInsuranceNumber { get; set; }
+
+        /// <summary>
+        /// Gets or sets the halls under the jurisdiction.
+        /// </summary>
+        public ICollection<ExhibitionHall> HallsUnderTheJurisdiction { get; set; }
     }
 }

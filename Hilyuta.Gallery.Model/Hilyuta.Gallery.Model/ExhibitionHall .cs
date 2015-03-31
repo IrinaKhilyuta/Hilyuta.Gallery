@@ -1,16 +1,39 @@
-﻿using System;
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="ExhibitionHall .cs" company="m">
+//   mm
+// </copyright>
+// <summary>
+//   The exhibition hall.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Hilyuta.Gallery.Model
 {
-    public class ExhibitionHall  : BaseClass
+    /// <summary>
+    /// The exhibition hall.
+    /// </summary>
+    public class ExhibitionHall : BaseClass
     {
-        public string name { set; get; }
-        public int capacity { set; get; }
-        public ICollection<Picture> pictures { set; get; }
-        public ICollection<Employeer> employeers { set; get; }
+        /// <summary>
+        /// Gets or sets the name.
+        /// </summary>
+        public string Name { get; set; }
+
+        /// <summary>
+        /// Gets or sets the capacity.
+        /// </summary>
+        public int Capacity { get; set; }
+
+        /// <summary>
+        /// Gets or sets the pictures.
+        /// </summary>
+        public ICollection<Picture> Pictures { get; set; }
+
+        /// <summary>
+        /// Gets or sets the employeers.
+        /// </summary>
+        public ICollection<Employeer> Employeers { get; set; }
     }
 }

@@ -1,16 +1,40 @@
-﻿using System;
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="Artist.cs" company="">
+//   
+// </copyright>
+// <summary>
+//   Defines the Artist type.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Hilyuta.Gallery.Model
 {
+    /// <summary>
+    /// The artist.
+    /// </summary>
     public class Artist : BaseClass
     {
-        public string name { set; get; }
-        public DateTime dateOfBirth { set; get; }
-        public DateTime dateOfDeath { set; get; }
-        public ICollection<Picture> pictures { set; get; }
+        /// <summary>
+        /// Gets or sets the name.
+        /// </summary>
+        public string Name { get; set; }
+
+        /// <summary>
+        /// Gets or sets the date of birth.
+        /// </summary>
+        public DateTime DateOfBirth { get; set; }
+
+        /// <summary>
+        /// Gets or sets the date of death.
+        /// </summary>
+        public DateTime DateOfDeath { get; set; }
+
+        /// <summary>
+        /// Gets or sets the pictures.
+        /// </summary>
+        public ICollection<Picture> Pictures { get; set; }
     }
 }
